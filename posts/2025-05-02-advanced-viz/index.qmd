@@ -558,4 +558,13 @@ plotly_plot <- plot |>
   ggplotly(tooltip = c("text")) |> 
     (\(.) {
     .$x$layout$title$x <- 0 # Left justify title
-    . # Return the modifi
+    . # Return the modified plotly object
+  })()
+
+
+plotly_plot
+```
+
+# Git/GitHub
+
+You can find my GitHub repository for this STAT 541 lab assignment: [Lab 2 GitHub Repo](https://github.com/hpawig/stat-541-lab-2)
