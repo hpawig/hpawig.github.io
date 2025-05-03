@@ -8,30 +8,3 @@ draft: false # setting this to 'false' will allow the post to be seen
 execute:
   echo: false
   warning: false
-  message: false
----
-
-In STAT 541, we learned about creating a static dashboard using Quarto. 
-We used the Wellcome Global Monitor survey report and data from 2018 [^1], 
-and I implemented some of my plots from our Lab 2: Advanced Visualizations.
-
-My static dashboard was published online using *Quarto Pub*. Embedded below is the website, which includes
-usage of card tabsets, pages, and navigation bar options!
-```{=html}
-<center>
-
-<iframe src="https://hpawig.quarto.pub/stat-541-lab-3/"
-frameborder="1" width="960" height="569" allowfullscreen="true"
-mozallowfullscreen="true" webkitallowfullscreen="true"
-title="STAT541 Lab 3: Static Dashboard">
-</iframe>
-
-</center>
-```
-
-
-
-
-[^1]: Link to the survey data: [Wellcome Global Monitor](https://wellcome.org/reports/wellcome-global-monitor/2018)
-
-- You can find my GitHub repository for this STAT 541 lab assignment: [Lab 3 GitHub Repo](https://github.com/hpawig/stat-541-lab-3)
