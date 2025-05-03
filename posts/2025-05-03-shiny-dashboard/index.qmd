@@ -1,0 +1,43 @@
+---
+title: "Interactive Dashboard"
+author: "Hannah Pawig"
+description: "Creating and publishing an interactive Shiny dashboard!"
+date: 05-03-2025
+categories: [STAT541, Quarto, R, GitHub/Git, Shiny] # self-defined categories
+draft: false # setting this to 'false' will allow the post to be seen
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+In STAT 541, we learned about creating an interactive dashboard with Quarto and Shiny. 
+We used the Wellcome Global Monitor survey report and data from 2018 [^1] and from 2020[^2].
+I implemented some of my plots from my Lab 2: Advanced Visualizations and Lab 3: Static Dashboards.
+
+This interactive dashboard was published online with shinyapps.io. Embedded below is the website, 
+which has a lot of the features learned with static dashboards but with the addition of 
+user input options.
+
+
+```{=html}
+<center>
+
+<iframe src="https://s630ps-hpawig.shinyapps.io/STAT541-Lab4/"
+frameborder="1" width="960" height="569" allowfullscreen="true"
+mozallowfullscreen="true" webkitallowfullscreen="true"
+title="STAT541 Lab 3: Static Dashboard">
+</iframe>
+
+</center>
+```
+
+
+
+
+[^1]: Link to the 2018 survey data: [Wellcome Global Monitor 2018 Report](https://wellcome.org/reports/wellcome-global-monitor/2018)
+
+[^2]: Link to the 2020 survey report: [Wellcome Global Monitor 2020 Report](https://wellcome.org/reports/wellcome-global-monitor-mental-health/2020)
+
+
+- You can find my GitHub repository for this STAT 541 lab assignment: [Lab 4 GitHub Repo](https://github.com/hpawig/stat-541-lab-4)
