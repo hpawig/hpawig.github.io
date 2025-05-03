@@ -35,3 +35,6 @@ title="STAT541 Lab 3: Static Dashboard">
 [^1]: Link to the survey data: [Wellcome Global Monitor](https://wellcome.org/reports/wellcome-global-monitor/2018)
 
 - You can find my GitHub repository for this STAT 541 lab assignment: [Lab 3 GitHub Repo](https://github.com/hpawig/stat-541-lab-3)
+
+- Static Dashboard Link on Quarto Pub [here](https://hpawig.quarto.pub/stat-541-lab-3/)
+

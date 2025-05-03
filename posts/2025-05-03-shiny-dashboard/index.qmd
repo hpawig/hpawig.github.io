@@ -42,3 +42,4 @@ title="STAT541 Lab 3: Static Dashboard">
 
 
 - You can find my GitHub repository for this STAT 541 lab assignment: [Lab 4 GitHub Repo](https://github.com/hpawig/stat-541-lab-4)
+- Interactive Dashboard Link on shinyapps.io [here](https://s630ps-hpawig.shinyapps.io/STAT541-Lab4/)
