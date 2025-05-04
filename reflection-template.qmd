@@ -1,7 +1,5 @@
 ---
-format:
-  html:
-    include: false
+format: pdf
 
 ---
 
@@ -103,6 +101,7 @@ I included example prompts and responses from Gemini below.
 ```{r}
 #| layout-ncol: 2
 #| fig-cap: "Gemini prompt and response for left justifying titles for Plotly plot"
+#| include: false
 # Insert documentation of using Gemini in Lab 2
 knitr::include_graphics(path = here::here("reflection-images",
                                           "LAB2-left-justify-plotly-image1.png"))
@@ -113,6 +112,7 @@ knitr::include_graphics(path = here::here("reflection-images",
 ```{r}
 #| layout-ncol: 2
 #| fig-cap: "Gemini prompt and response for using countrycode package for joining WGM data"
+#| include: false
 # Insert documentation of using Gemini in Lab 2
 knitr::include_graphics(path = here::here("reflection-images",
                                           "LAB2-using-countrycode-1.png"))
@@ -536,6 +536,9 @@ When I first made this plot, I referenced Gemini to guide how I could make the `
 
 - Included below is screenshots of me using Gemini to help me make the referenced `{leaflet}`:
 ```{r}
+#| layout-ncol: 2
+#| fig-cap: "Gemini prompt and response for using leaflet package to make chloropleth"
+#| include: false
 # Insert documentation of using Gemini in Lab 2
 knitr::include_graphics(path = here::here("reflection-images",
                                           "LAB2-leaflet-chloropleth-base-code-1.png"))
