@@ -1,4 +1,4 @@
-Download the source code for the template here: 
+Download the source code for the template here:
 
 [`reflection-template.qmd`](https://raw.githubusercontent.com/atheobold/stat-541-website/refs/heads/main/portfolio/reflection-template.qmd "download")
 
@@ -24,7 +24,7 @@ num_to_cat_levels <- function(x){
 
 *These objectives show your ability to seek out new information and adapt to new tools to solve data analysis problems.*
 
-## [IL-1] Adding new skills:
+## \[IL-1\] Adding new skills:
 
 -   I can find and adopt new packages to accomplish tasks.
 -   I can adapt to different syntax styles (tidy, base, formula style, data.table).
@@ -40,7 +40,7 @@ num_to_cat_levels <- function(x){
 # 2 = Proficient
 # 3 = Virtuoso
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -52,13 +52,18 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/) I learned and applied html syntax to format certain text to output in the way I envisioned. In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I figured out how to trouble-shoot the errors I was receiving while trying to publish my Shiny app. In the end, I had learned that it was not necessary to use the `{here}` package if I was already publishing the data that was being referenced by my Quarto document that had the app server and UI code. To complete the requirements for [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I learned how to adopt Shiny syntax into a Quarto document, mostly by trial and error.
 
-## [IL-2] Online resources:
+I had not realized until beginning the shiny app for this lab assignment that creating UI features has somewhat of a different syntax than creating a Shiny app in an app.R file.
 
--   I can use online resources (e.g., Google, ChatGPT, StackOverflow, YouTube)
-to solve problems, debug, or find new tools.
+In a past summer project, I was assigned the task of creating a Shiny app, but at the time I was using base R syntax. This was also my first time dealing with reading in data sets for a shiny app/dashboard.
+
+In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I was able to adapt to using tidy syntax and integrating Shiny functionality within a Quarto document by mainly referencing official documentation and using my previously published Shiny app (which can be found in my Shiny account).
+
+## \[IL-2\] Online resources:
+
+-   I can use online resources (e.g., Google, ChatGPT, StackOverflow, YouTube) to solve problems, debug, or find new tools.
 -   I can use tutorials, etc. to enhance my understanding of new concepts.
 -   I can find source code for similar projects to use as starting points for my own.
 
@@ -67,7 +72,7 @@ to solve problems, debug, or find new tools.
 #| label: IL-2
 
 ## Fill in the line below with your self-assigned level for this objective.
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -79,10 +84,39 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
+
+For [Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/), I used the online resources provided by Dr. T about creating static dashboards, along with official quarto documentation. Specifically, I followed along with the tutorial video on shiny dashboards, then applied my new skills to create the static dashboard in  [Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/).
+
+For [Lab 2](https://hpawig.github.io/posts/2025-05-02-advanced-visualizations/), I utilized Gemini to help me build base code and explore plotting options for my map and interactive plots with the R packages `{leaflet}`, `{plotly}`,`{rnaturalearth}`, {`countrycode`}, and `{rnaturalearth}`. 
+I included example prompts and responses from Gemini below.
 
 
-## IL Summary 
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: "Gemini prompt and response for left justifying titles for Plotly plot"
+# Insert documentation of using Gemini in Lab 2
+knitr::include_graphics(path = here::here("reflection-images",
+                                          "LAB2-left-justify-plotly-image1.png"))
+knitr::include_graphics(path = here::here("reflection-images",
+                                          "LAB2-left-justify-plotly-image2.png"))
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: "Gemini prompt and response for using countrycode package for joining WGM data"
+# Insert documentation of using Gemini in Lab 2
+knitr::include_graphics(path = here::here("reflection-images",
+                                          "LAB2-using-countrycode-1.png"))
+knitr::include_graphics(path = here::here("reflection-images",
+                                          "LAB2-using-countrycode-2.png"))
+```
+
+As I mentioned in the previous section, for [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/) I used my previously published Shiny app (which can be found in my Shiny account) to help refresh my memory on Shiny syntax and how to create a Shiny app.
+I referenced official documentation for quarto dashboards to help me understand how to implement Shiny within
+a Quarto document.
+
+## IL Summary
 
 ```{r}
 #| echo: false
@@ -107,24 +141,21 @@ portfolio_levels %>%
   scale_y_continuous(labels = scales::label_percent())
 ```
 
-
 # Reproducible Workflow (RW):
 
 *These objectives show your ability to produce artifacts and deliverables that are organized, documented, version tracked, and responsibly designed.*
 
-## [RW-1] File, code, and data management:
+## \[RW-1\] File, code, and data management:
 
--   I can use Git and GitHub to track my progress (creating repos, cloning,
-forking, pull requesting).
--   I always use R Projects and the {here} package to organize my scripts,
-notebooks, data, and applications.
+-   I can use Git and GitHub to track my progress (creating repos, cloning, forking, pull requesting).
+-   I always use R Projects and the {here} package to organize my scripts, notebooks, data, and applications.
 -   I always use pull requests when collaborating with others.
 
 ```{r}
 #| include: false
 #| label: RW-1
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -135,22 +166,32 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Level: `r my_level`
 
+
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
+
+- For all my lab assignments, I forked the lab repository given by Dr. T to start each assignment.
+
+- I have extensively used the `{here}` package and am very comfortable using it to read in data.
+My main example was when I was using the `here()` function throughout my data-preproc.R script.
+This was the script that
+read in data subsets which were pre-processed. This was to avoid my immediate crashing
+when my interactive Shiny dashboard was published. 
+Every plot in [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/) 
+was created using the data frames read in using `here()`.
+I used here in [Lab 2](https://hpawig.github.io/posts/2025-05-02-advanced-visualizations/) as well. 
+All in all, I feel I have a very good understanding of using `here()` to read in data sets.
 
 
-## [RW-2] Notebooks:
+## \[RW-2\] Notebooks:
 
--   I can use Quarto to produce a reproducible notebook and polished rendered
-documents
--   I can use appropriate chunk options (echo, error, cache, etc.) to render my
-Quarto document quickly and cleanly.
+-   I can use Quarto to produce a reproducible notebook and polished rendered documents
+-   I can use appropriate chunk options (echo, error, cache, etc.) to render my Quarto document quickly and cleanly.
 
 ```{r}
 #| include: false
 #| label: RW-2
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -162,10 +203,20 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+- For [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), 
+I worked within a Quarto document to convert my static dashboard into an interactive Shiny dashboard.
+Throughout the Quarto document for my [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I labelled the code chunks appropriately with the `label` 
+chunk option. 
 
-## [RW-3] Code style
+- For [Lab 2](https://hpawig.github.io/posts/2025-05-02-advanced-visualizations/), 
+I utilized the global `code-fold` chunk option to hide the code in my rendered
+html; based on feedback from Dr. T, I changed this option when converting Lab 2 to the respective blog post
+(Advanced Visualization)
+In the blog post, I use `echo: false` to hide the code when the blog went online, along with setting global
+warning and error options in the Quarto document for the blog post.
+
+## \[RW-3\] Code style
 
 -   My code is clear, readable, well-organized, and well-commented.
 
@@ -173,7 +224,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: RW-3
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -185,10 +236,15 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
+- For [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), 
+I commented throughout the code to explain the few custom functions, online sources I referenced that weren't official documentation,
+references to use of Gemini to help write code.
+- I don't just have one code chunk but have them separated by code functionality (i.e. 
+one code chunk to load packages and server code, separate code chunks for different assorted
+plot output) throughout so that my Quarto document
+code is readable.
 
-
-## RW Summary 
+## RW Summary
 
 ```{r}
 #| echo: false
@@ -213,12 +269,11 @@ portfolio_levels %>%
   scale_y_continuous(labels = scales::label_percent())
 ```
 
-
 # Technical Communication (TC):
 
 *These objectives show your ability to communicate the processes you have implemented in your code, as well as the data conclusions and results.*
 
-## [TC-1] Project summaries:
+## \[TC-1\] Project summaries:
 
 -   I can create clear and succinct summaries of a project.
 -   I accurately interpret statistical or modeling results.
@@ -240,10 +295,14 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+For my dashboard labs ([Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/) and [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/)), I was able to communicate
+the information that were displayed in the box plot, the leaflets, and the chloropleth map. I 
+wrote brief backgrounds on what information was used to create the plots. For example on the 2020 page, 
+I wrote a background on how the 2020 survey was focused more on mental health and so there were summary tables
+in Lab 3 that were about related topics to mental health: anxiety/depression and social media.
 
-## [TC-2] Documentation:
+## \[TC-2\] Documentation:
 
 -   I can create a user-friendly dashboard.
 -   I provide ample documentation for my custom functions.
@@ -252,7 +311,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: TC-2
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -264,10 +323,17 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+- In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I have an instruction card on
+the 2020 page in the dashboard to tell the user how the sliders work. 
 
-## TC Summary 
+- The dropdown menu in the tabset with the chloropleth graph on the vaccines page has a prompt that asks
+what the user wants to see on the map, which keeps that user input option pretty straightforward.
+
+- There is commented documentation in the Quarto document used to create the interactive dashboard
+that explains each custom function I used/made. 
+
+## TC Summary
 
 ```{r}
 #| echo: false
@@ -296,7 +362,7 @@ portfolio_levels %>%
 
 *These objectives relate to the collection, cleaning, processing, and preparing of datasets for analysis.*
 
-## [DM-1] Data Preparation
+## \[DM-1\] Data Preparation
 
 -   I can read in datasets to R, including untidy ones.
 -   I can clean datasets to deal with missing data, typos, poor formatting, etc.
@@ -305,7 +371,7 @@ portfolio_levels %>%
 #| include: false
 #| label: DM-1
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -317,20 +383,25 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+As previously mentioned, I read in all data and preprocessed them in the R script called
+data-preproc.R within my [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/)
+repository/project directory. For example, I used the `str_split()` function multiple times to end up with
+a tibble 
+containing a column of column names and a column with their country code. I started
+from the single cell in the data dictionary that contained
+all countries and their codes in one comma-separated string. 
 
-## [DM-2] Data Wrangling
+## \[DM-2\] Data Wrangling
 
--   I can cleverly use pivoting, separating, grouping, and joining to wrangle
-data.
+-   I can cleverly use pivoting, separating, grouping, and joining to wrangle data.
 -   I can use mapping (`purrr`) to perform repeated tasks.
 
 ```{r}
 #| include: false
 #| label: DM-2
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -342,10 +413,14 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+With help from Gemini to understand how to use the `countrycode` package, I used data joining
+to create the necessary dataframe format to plot the chloropleth map in my [Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/) 
+and [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/). For the
+data wrangling that was used to preprocess my data for the plots in the lab, I utilized pivoting 
+when making the summary statistics for the 2020 responses relating to social media and anxiety.
 
-## [DM-3] Data Formats
+## \[DM-3\] Data Formats
 
 -   I can use API urls to access JSON data and convert it into a data frame
 -   I can scrape data from the web and convert it into a data frame
@@ -362,10 +437,10 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
-
-## DM Summary 
+## DM Summary
 
 ```{r}
 #| echo: false
@@ -390,23 +465,19 @@ portfolio_levels %>%
   scale_y_continuous(labels = scales::label_percent())
 ```
 
-
 # Professional Visualization (PV):
 
-## [PV-1] Clear & Accessible Visualizations
+## \[PV-1\] Clear & Accessible Visualizations
 
--   I can make my plots more clear by removing the legend and adding
-annotations.
--   I can edit the titles, subtitles, captions, axis labels, etc. to create a
-clearly labelled plot.
--   I can choose colors ("scales") and themes to make a visually pleasing and
-accessible plot.
+-   I can make my plots more clear by removing the legend and adding annotations.
+-   I can edit the titles, subtitles, captions, axis labels, etc. to create a clearly labelled plot.
+-   I can choose colors ("scales") and themes to make a visually pleasing and accessible plot.
 
 ```{r}
 #| include: false
 #| label: PV-1
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -418,20 +489,24 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+For the interactive `{plotly}` plot in [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/)
+that was inspired one of the charts in the WGM 2018 report,
+I did not put a legend and instead utilized axes labels and the plot title to communicate the
+contents in the graph. I chose a red-orange color scale that matched the theme of the interactive 
+dashboard, and implemented the use of the plotly tooltip to show the country name and regiin, plus 
+the x/y values.
 
-## [PV-2] Dynamic Visualizations
+## \[PV-2\] Dynamic Visualizations
 
 -   I can use a package like {gganimate} to create self-contained gifs.
--   I can use a package like {plotly}, {ggplotly}, {leaflet}, {ggirafe}, etc. to
-make interactive html widgets.
+-   I can use a package like {plotly}, {ggplotly}, {leaflet}, {ggirafe}, etc. to make interactive html widgets.
 
 ```{r}
 #| include: false
 #| label: PV-2
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -443,19 +518,33 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
+
+I created intricate and neat animated plots using the `{plotly}` and `{leaflet}` packages in [Lab 2](https://hpawig.github.io/posts/2025-05-02-advanced-visualizations/). For example, the
+chloropleth plot made with `{leaflet}` displays the country name (for countries that have data for the specific
+statistic of interest) along with the statistic percentage when the user hovers over the country. 
+In this lab, the statistic was the percentage of people who believe that vaccines are safe. 
+When I first made this plot, I referenced Gemini to guide how I could make the `{leaflet}` with the
+`{rnaturalearth}` package.
+
+- Included below is screenshots of me using Gemini to help me make the referenced `{leaflet}`:
+```{r}
+# Insert documentation of using Gemini in Lab 2
+knitr::include_graphics(path = here::here("reflection-images",
+                                          "LAB2-leaflet-chloropleth-base-code-1.png"))
+knitr::include_graphics(path = here::here("reflection-images",
+                                          "LAB2-leaflet-chloropleth-base-code-2.png"))
+```
 
 
-## [PV-3] Interactive Visualizations
+## \[PV-3\] Interactive Visualizations
 
--   I can use Shiny or webR to create visualizations that react to a user's
-input.
+-   I can use Shiny or webR to create visualizations that react to a user's input.
 
 ```{r}
 #| include: false
 #| label: PV-3
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -467,10 +556,15 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
-<!-- Insert references to the work shown in the blog(s) on your personal website -->
+
+- In the Lab 4 interactive dashboard that changes the displayed interactive chloropleth
+based on the user's a statistic of interest. This chloropleth is in the "Map" tabset on the first page, titled [2018 Opinion: Vaccines](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/)
+of the interactive dashboard. I figured out on my own how to use the reactive `renderLeaflet({})`
+function to create the chloropleth map that changes based on the user's input into the 
+dropdown menu asking, "What Global Opinion Do You Want to See on the Map?".
 
 
-## PV Summary 
+## PV Summary
 
 ```{r}
 #| echo: false
@@ -495,17 +589,14 @@ portfolio_levels %>%
   scale_y_continuous(labels = scales::label_percent())
 ```
 
-
 # Code Design, Algorithms, Iteration (CDAI):
 
 *These objectives ask you to design code-based approaches to statistical computing problems, usually involving iteration to a stopping condition.*
 
-## [CDAI-1] R Programming Language
+## \[CDAI-1\] R Programming Language
 
--   I understand non-standard evaluation (aka "tidy eval" or "unquoted 
-objects"), and I can use tunneling in my functions.
--   I understand functional programming, and I can use functions as objects in
-my code design.
+-   I understand non-standard evaluation (aka "tidy eval" or "unquoted objects"), and I can use tunneling in my functions.
+-   I understand functional programming, and I can use functions as objects in my code design.
 
 ```{r}
 #| include: false
@@ -523,11 +614,11 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+## \[CDAI-2\] Object Handling
 
-## [CDAI-2] Object Handling
-  
 -   I have built in checks for possible input problems
 -   I can make reasonable choices in my code design about when to save intermediate objects.
 -   I can convert objects between types and structures as needed.
@@ -548,13 +639,12 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+## \[CDAI-3\] Speed and Efficiency
 
-## [CDAI-3] Speed and Efficiency
-  
--   I can recognize moments of possible slowdown in my code, and use built-in
-functions or parallelizing to speed them up.
+-   I can recognize moments of possible slowdown in my code, and use built-in functions or parallelizing to speed them up.
 -   I always use and design vectorized functions whenever possible.
 
 ```{r}
@@ -573,13 +663,12 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+## \[CDAI-4\] Supporting Functions
 
-## [CDAI-4] Supporting Functions
-  
--   I write helper / shortcut functions to streamline repeated tasks and make my
-code easier to read.
+-   I write helper / shortcut functions to streamline repeated tasks and make my code easier to read.
 -   I use intermediate functions to streamline repeated or looping processes.
 
 ```{r}
@@ -598,15 +687,14 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+## \[CDAI-5\] Algorithmic Process
 
-## [CDAI-5] Algorithmic Process
-  
 -   I can invent and implement my own iterative algorithm.
 -   My loops are clean and efficient.
--   I have built in checks for possible problems or extreme cases in the
-algorithm.
+-   I have built in checks for possible problems or extreme cases in the algorithm.
 
 ```{r}
 #| include: false
@@ -624,15 +712,13 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
+## \[CDAI-6\] Generative Art
 
-## [CDAI-6] Generative Art
-  
--   I can apply a variety of generative art functions to make a visually
-pleasing piece.
--   I can explain why particular changes to the code result in particular
-differences in the visualization.
+-   I can apply a variety of generative art functions to make a visually pleasing piece.
+-   I can explain why particular changes to the code result in particular differences in the visualization.
 
 ```{r}
 #| include: false
@@ -650,9 +736,10 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
 <!-- Insert references to the work shown in the blog(s) on your personal website -->
 
-## CDAI Summary 
+## CDAI Summary
 
 ```{r}
 #| echo: false
@@ -676,7 +763,6 @@ portfolio_levels %>%
   theme_bw() +
   scale_y_continuous(labels = scales::label_percent())
 ```
-
 
 # Overall Summary
 
@@ -704,6 +790,6 @@ portfolio_levels %>%
 
 ## Grade
 
-Based on the summary plot above, I believe I have earned a ____ in STAT 541.
+Based on the summary plot above, I believe I have earned a \_\_\_\_ in STAT 541.
 
 ### Justification
