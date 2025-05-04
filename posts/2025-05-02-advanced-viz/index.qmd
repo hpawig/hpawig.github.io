@@ -204,7 +204,7 @@ plot_df <- plot_df |>
 
 ```
 
-# First Data Visualization Improvment
+# First Data Visualization Improvement
 
 Instead of recreating the visualization, I chose to display the information in the original WGM 2018 plot using boxplots. I used continents to group the countries instead.
 

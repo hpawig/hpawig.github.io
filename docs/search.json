@@ -11,14 +11,14 @@
     "href": "reflection-template.html#il-1-adding-new-skills",
     "title": "Independent Learning (IL):",
     "section": "[IL-1] Adding new skills:",
-    "text": "[IL-1] Adding new skills:\n\nI can find and adopt new packages to accomplish tasks.\nI can adapt to different syntax styles (tidy, base, formula style, data.table).\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[IL-1] Adding new skills:\n\nI can find and adopt new packages to accomplish tasks.\nI can adapt to different syntax styles (tidy, base, formula style, data.table).\n\n\nLevel: 3\n\n\nJustification:\nIn Lab 4 I learned and applied html syntax to format certain text to output in the way I envisioned. In Lab 4, I figured out how to trouble-shoot the errors I was receiving while trying to publish my Shiny app. In the end, I had learned that it was not necessary to use the {here} package if I was already publishing the data that was being referenced by my Quarto document that had the app server and UI code. To complete the requirements for Lab 4, I learned how to adopt Shiny syntax into a Quarto document, mostly by trial and error.\nI had not realized until beginning the shiny app for this lab assignment that creating UI features has somewhat of a different syntax than creating a Shiny app in an app.R file.\nIn a past summer project, I was assigned the task of creating a Shiny app, but at the time I was using base R syntax. This was also my first time dealing with reading in data sets for a shiny app/dashboard.\nIn Lab 4, I was able to adapt to using tidy syntax and integrating Shiny functionality within a Quarto document by mainly referencing official documentation and using my previously published Shiny app (which can be found in my Shiny account)."
   },
   {
     "objectID": "reflection-template.html#il-2-online-resources",
     "href": "reflection-template.html#il-2-online-resources",
     "title": "Independent Learning (IL):",
     "section": "[IL-2] Online resources:",
-    "text": "[IL-2] Online resources:\n\nI can use online resources (e.g., Google, ChatGPT, StackOverflow, YouTube) to solve problems, debug, or find new tools.\nI can use tutorials, etc. to enhance my understanding of new concepts.\nI can find source code for similar projects to use as starting points for my own.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[IL-2] Online resources:\n\nI can use online resources (e.g., Google, ChatGPT, StackOverflow, YouTube) to solve problems, debug, or find new tools.\nI can use tutorials, etc. to enhance my understanding of new concepts.\nI can find source code for similar projects to use as starting points for my own.\n\n\nLevel: 3\n\n\nJustification:\nFor Lab 3, I used the online resources provided by Dr. T about creating static dashboards, along with official quarto documentation. Specifically, I followed along with the tutorial video on shiny dashboards, then applied my new skills to create the static dashboard in Lab 3.\nFor Lab 2, I utilized Gemini to help me build base code and explore plotting options for my map and interactive plots with the R packages {leaflet}, {plotly},{rnaturalearth}, {countrycode}, and {rnaturalearth}. I included example prompts and responses from Gemini below.\n# Insert documentation of using Gemini in Lab 2\nknitr::include_graphics(path = here::here(\"reflection-images\",\n                                          \"LAB2-left-justify-plotly-image1.png\"))\nknitr::include_graphics(path = here::here(\"reflection-images\",\n                                          \"LAB2-left-justify-plotly-image2.png\"))\n\n\n\n\n\n\nGemini prompt and response for left justifying titles for Plotly plot\n\n\n\n\n\n\n\nGemini prompt and response for left justifying titles for Plotly plot\n\n\n\n\n\n# Insert documentation of using Gemini in Lab 2\nknitr::include_graphics(path = here::here(\"reflection-images\",\n                                          \"LAB2-using-countrycode-1.png\"))\nknitr::include_graphics(path = here::here(\"reflection-images\",\n                                          \"LAB2-using-countrycode-2.png\"))\n\n\n\n\n\n\nGemini prompt and response for using countrycode package for joining WGM data\n\n\n\n\n\n\n\nGemini prompt and response for using countrycode package for joining WGM data\n\n\n\n\n\nAs I mentioned in the previous section, for Lab 4 I used my previously published Shiny app (which can be found in my Shiny account) to help refresh my memory on Shiny syntax and how to create a Shiny app. I referenced official documentation for quarto dashboards to help me understand how to implement Shiny within a Quarto document."
   },
   {
     "objectID": "reflection-template.html#il-summary",
@@ -32,21 +32,21 @@
     "href": "reflection-template.html#rw-1-file-code-and-data-management",
     "title": "Independent Learning (IL):",
     "section": "[RW-1] File, code, and data management:",
-    "text": "[RW-1] File, code, and data management:\n\nI can use Git and GitHub to track my progress (creating repos, cloning, forking, pull requesting).\nI always use R Projects and the {here} package to organize my scripts, notebooks, data, and applications.\nI always use pull requests when collaborating with others.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[RW-1] File, code, and data management:\n\nI can use Git and GitHub to track my progress (creating repos, cloning, forking, pull requesting).\nI always use R Projects and the {here} package to organize my scripts, notebooks, data, and applications.\nI always use pull requests when collaborating with others.\n\n\nLevel: 3\n\n\nJustification:\n\nFor all my lab assignments, I forked the lab repository given by Dr. T to start each assignment.\nI have extensively used the {here} package and am very comfortable using it to read in data. My main example was when I was using the here() function throughout my data-preproc.R script. This was the script that read in data subsets which were pre-processed. This was to avoid my immediate crashing when my interactive Shiny dashboard was published. Every plot in Lab 4 was created using the data frames read in using here(). I used here in Lab 2 as well. All in all, I feel I have a very good understanding of using here() to read in data sets."
   },
   {
     "objectID": "reflection-template.html#rw-2-notebooks",
     "href": "reflection-template.html#rw-2-notebooks",
     "title": "Independent Learning (IL):",
     "section": "[RW-2] Notebooks:",
-    "text": "[RW-2] Notebooks:\n\nI can use Quarto to produce a reproducible notebook and polished rendered documents\nI can use appropriate chunk options (echo, error, cache, etc.) to render my Quarto document quickly and cleanly.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[RW-2] Notebooks:\n\nI can use Quarto to produce a reproducible notebook and polished rendered documents\nI can use appropriate chunk options (echo, error, cache, etc.) to render my Quarto document quickly and cleanly.\n\n\nLevel: 3\n\n\nJustification:\n\nFor Lab 4, I worked within a Quarto document to convert my static dashboard into an interactive Shiny dashboard. Throughout the Quarto document for my Lab 4, I labelled the code chunks appropriately with the label chunk option.\nFor Lab 2, I utilized the global code-fold chunk option to hide the code in my rendered html; based on feedback from Dr. T, I changed this option when converting Lab 2 to the respective blog post (Advanced Visualization) In the blog post, I use echo: false to hide the code when the blog went online, along with setting global warning and error options in the Quarto document for the blog post."
   },
   {
     "objectID": "reflection-template.html#rw-3-code-style",
     "href": "reflection-template.html#rw-3-code-style",
     "title": "Independent Learning (IL):",
     "section": "[RW-3] Code style",
-    "text": "[RW-3] Code style\n\nMy code is clear, readable, well-organized, and well-commented.\n\n\nLevel: 1\n\n\nJustification"
+    "text": "[RW-3] Code style\n\nMy code is clear, readable, well-organized, and well-commented.\n\n\nLevel: 3\n\n\nJustification\n\nFor Lab 4, I commented throughout the code to explain the few custom functions, online sources I referenced that weren’t official documentation, references to use of Gemini to help write code.\nI don’t just have one code chunk but have them separated by code functionality (i.e.  one code chunk to load packages and server code, separate code chunks for different assorted plot output) throughout so that my Quarto document code is readable."
   },
   {
     "objectID": "reflection-template.html#rw-summary",
@@ -60,14 +60,14 @@
     "href": "reflection-template.html#tc-1-project-summaries",
     "title": "Independent Learning (IL):",
     "section": "[TC-1] Project summaries:",
-    "text": "[TC-1] Project summaries:\n\nI can create clear and succinct summaries of a project.\nI accurately interpret statistical or modeling results.\nI consider the appropriate scope and impact of my project results.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[TC-1] Project summaries:\n\nI can create clear and succinct summaries of a project.\nI accurately interpret statistical or modeling results.\nI consider the appropriate scope and impact of my project results.\n\n\nLevel: 1\n\n\nJustification:\nFor my dashboard labs (Lab 3 and Lab 4), I was able to communicate the information that were displayed in the box plot, the leaflets, and the chloropleth map. I wrote brief backgrounds on what information was used to create the plots. For example on the 2020 page, I wrote a background on how the 2020 survey was focused more on mental health and so there were summary tables in Lab 3 that were about related topics to mental health: anxiety/depression and social media."
   },
   {
     "objectID": "reflection-template.html#tc-2-documentation",
     "href": "reflection-template.html#tc-2-documentation",
     "title": "Independent Learning (IL):",
     "section": "[TC-2] Documentation:",
-    "text": "[TC-2] Documentation:\n\nI can create a user-friendly dashboard.\nI provide ample documentation for my custom functions.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[TC-2] Documentation:\n\nI can create a user-friendly dashboard.\nI provide ample documentation for my custom functions.\n\n\nLevel: 3\n\n\nJustification:\n\nIn Lab 4, I have an instruction card on the 2020 page in the dashboard to tell the user how the sliders work.\nThe dropdown menu in the tabset with the chloropleth graph on the vaccines page has a prompt that asks what the user wants to see on the map, which keeps that user input option pretty straightforward.\nThere is commented documentation in the Quarto document used to create the interactive dashboard that explains each custom function I used/made."
   },
   {
     "objectID": "reflection-template.html#tc-summary",
@@ -81,14 +81,14 @@
     "href": "reflection-template.html#dm-1-data-preparation",
     "title": "Independent Learning (IL):",
     "section": "[DM-1] Data Preparation",
-    "text": "[DM-1] Data Preparation\n\nI can read in datasets to R, including untidy ones.\nI can clean datasets to deal with missing data, typos, poor formatting, etc.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[DM-1] Data Preparation\n\nI can read in datasets to R, including untidy ones.\nI can clean datasets to deal with missing data, typos, poor formatting, etc.\n\n\nLevel: 3\n\n\nJustification:\nAs previously mentioned, I read in all data and preprocessed them in the R script called data-preproc.R within my Lab 4 repository/project directory. For example, I used the str_split() function multiple times to end up with a tibble containing a column of column names and a column with their country code. I started from the single cell in the data dictionary that contained all countries and their codes in one comma-separated string."
   },
   {
     "objectID": "reflection-template.html#dm-2-data-wrangling",
     "href": "reflection-template.html#dm-2-data-wrangling",
     "title": "Independent Learning (IL):",
     "section": "[DM-2] Data Wrangling",
-    "text": "[DM-2] Data Wrangling\n\nI can cleverly use pivoting, separating, grouping, and joining to wrangle data.\nI can use mapping (purrr) to perform repeated tasks.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[DM-2] Data Wrangling\n\nI can cleverly use pivoting, separating, grouping, and joining to wrangle data.\nI can use mapping (purrr) to perform repeated tasks.\n\n\nLevel: 2\n\n\nJustification:\nWith help from Gemini to understand how to use the countrycode package, I used data joining to create the necessary dataframe format to plot the chloropleth map in my Lab 3 and Lab 4. For the data wrangling that was used to preprocess my data for the plots in the lab, I utilized pivoting when making the summary statistics for the 2020 responses relating to social media and anxiety."
   },
   {
     "objectID": "reflection-template.html#dm-3-data-formats",
@@ -109,21 +109,21 @@
     "href": "reflection-template.html#pv-1-clear-accessible-visualizations",
     "title": "Independent Learning (IL):",
     "section": "[PV-1] Clear & Accessible Visualizations",
-    "text": "[PV-1] Clear & Accessible Visualizations\n\nI can make my plots more clear by removing the legend and adding annotations.\nI can edit the titles, subtitles, captions, axis labels, etc. to create a clearly labelled plot.\nI can choose colors (“scales”) and themes to make a visually pleasing and accessible plot.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[PV-1] Clear & Accessible Visualizations\n\nI can make my plots more clear by removing the legend and adding annotations.\nI can edit the titles, subtitles, captions, axis labels, etc. to create a clearly labelled plot.\nI can choose colors (“scales”) and themes to make a visually pleasing and accessible plot.\n\n\nLevel: 3\n\n\nJustification:\nFor the interactive {plotly} plot in Lab 4 that was inspired one of the charts in the WGM 2018 report, I did not put a legend and instead utilized axes labels and the plot title to communicate the contents in the graph. I chose a red-orange color scale that matched the theme of the interactive dashboard, and implemented the use of the plotly tooltip to show the country name and regiin, plus the x/y values."
   },
   {
     "objectID": "reflection-template.html#pv-2-dynamic-visualizations",
     "href": "reflection-template.html#pv-2-dynamic-visualizations",
     "title": "Independent Learning (IL):",
     "section": "[PV-2] Dynamic Visualizations",
-    "text": "[PV-2] Dynamic Visualizations\n\nI can use a package like {gganimate} to create self-contained gifs.\nI can use a package like {plotly}, {ggplotly}, {leaflet}, {ggirafe}, etc. to make interactive html widgets.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[PV-2] Dynamic Visualizations\n\nI can use a package like {gganimate} to create self-contained gifs.\nI can use a package like {plotly}, {ggplotly}, {leaflet}, {ggirafe}, etc. to make interactive html widgets.\n\n\nLevel: 2\n\n\nJustification:\nI created intricate and neat animated plots using the {plotly} and {leaflet} packages in Lab 2. For example, the chloropleth plot made with {leaflet} displays the country name (for countries that have data for the specific statistic of interest) along with the statistic percentage when the user hovers over the country. In this lab, the statistic was the percentage of people who believe that vaccines are safe. When I first made this plot, I referenced Gemini to guide how I could make the {leaflet} with the {rnaturalearth} package.\n\nIncluded below is screenshots of me using Gemini to help me make the referenced {leaflet}:\n\n\n# Insert documentation of using Gemini in Lab 2\nknitr::include_graphics(path = here::here(\"reflection-images\",\n                                          \"LAB2-leaflet-chloropleth-base-code-1.png\"))\n\n\n\n\n\n\n\nknitr::include_graphics(path = here::here(\"reflection-images\",\n                                          \"LAB2-leaflet-chloropleth-base-code-2.png\"))"
   },
   {
     "objectID": "reflection-template.html#pv-3-interactive-visualizations",
     "href": "reflection-template.html#pv-3-interactive-visualizations",
     "title": "Independent Learning (IL):",
     "section": "[PV-3] Interactive Visualizations",
-    "text": "[PV-3] Interactive Visualizations\n\nI can use Shiny or webR to create visualizations that react to a user’s input.\n\n\nLevel: 1\n\n\nJustification:"
+    "text": "[PV-3] Interactive Visualizations\n\nI can use Shiny or webR to create visualizations that react to a user’s input.\n\n\nLevel: 3\n\n\nJustification:\n\nIn the Lab 4 interactive dashboard that changes the displayed interactive chloropleth based on the user’s a statistic of interest. This chloropleth is in the “Map” tabset on the first page, titled 2018 Opinion: Vaccines of the interactive dashboard. I figured out on my own how to use the reactive renderLeaflet({}) function to create the chloropleth map that changes based on the user’s input into the dropdown menu asking, “What Global Opinion Do You Want to See on the Map?”."
   },
   {
     "objectID": "reflection-template.html#pv-summary",
