@@ -1,3 +1,11 @@
+---
+format:
+  html:
+    include: false
+
+---
+
+
 Download the source code for the template here:
 
 [`reflection-template.qmd`](https://raw.githubusercontent.com/atheobold/stat-541-website/refs/heads/main/portfolio/reflection-template.qmd "download")
@@ -53,13 +61,13 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/) I learned and applied html syntax to format certain text to output in the way I envisioned. In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I figured out how to trouble-shoot the errors I was receiving while trying to publish my Shiny app. In the end, I had learned that it was not necessary to use the `{here}` package if I was already publishing the data that was being referenced by my Quarto document that had the app server and UI code. To complete the requirements for [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I learned how to adopt Shiny syntax into a Quarto document, mostly by trial and error.
+In [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/) I learned and applied html syntax to format certain text to output in the way I envisioned. In [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), I figured out how to trouble-shoot the errors I was receiving while trying to publish my Shiny app. In the end, I had learned that it was not necessary to use the `{here}` package if I was already publishing the data that was being referenced by my Quarto document that had the app server and UI code. To complete the requirements for [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), I learned how to adopt Shiny syntax into a Quarto document, mostly by trial and error.
 
 I had not realized until beginning the shiny app for this lab assignment that creating UI features has somewhat of a different syntax than creating a Shiny app in an app.R file.
 
 In a past summer project, I was assigned the task of creating a Shiny app, but at the time I was using base R syntax. This was also my first time dealing with reading in data sets for a shiny app/dashboard.
 
-In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I was able to adapt to using tidy syntax and integrating Shiny functionality within a Quarto document by mainly referencing official documentation and using my previously published Shiny app (which can be found in my Shiny account).
+In [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), I was able to adapt to using tidy syntax and integrating Shiny functionality within a Quarto document by mainly referencing official documentation and using my previously published Shiny app (which can be found in my Shiny account).
 
 ## \[IL-2\] Online resources:
 
@@ -112,7 +120,7 @@ knitr::include_graphics(path = here::here("reflection-images",
                                           "LAB2-using-countrycode-2.png"))
 ```
 
-As I mentioned in the previous section, for [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/) I used my previously published Shiny app (which can be found in my Shiny account) to help refresh my memory on Shiny syntax and how to create a Shiny app.
+As I mentioned in the previous section, for [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/) I used my previously published Shiny app (which can be found in my Shiny account) to help refresh my memory on Shiny syntax and how to create a Shiny app.
 I referenced official documentation for quarto dashboards to help me understand how to implement Shiny within
 a Quarto document.
 
@@ -176,7 +184,7 @@ My main example was when I was using the `here()` function throughout my data-pr
 This was the script that
 read in data subsets which were pre-processed. This was to avoid my immediate crashing
 when my interactive Shiny dashboard was published. 
-Every plot in [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/) 
+Every plot in [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/) 
 was created using the data frames read in using `here()`.
 I used here in [Lab 2](https://hpawig.github.io/posts/2025-05-02-advanced-visualizations/) as well. 
 All in all, I feel I have a very good understanding of using `here()` to read in data sets.
@@ -204,9 +212,9 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-- For [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), 
+- For [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), 
 I worked within a Quarto document to convert my static dashboard into an interactive Shiny dashboard.
-Throughout the Quarto document for my [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I labelled the code chunks appropriately with the `label` 
+Throughout the Quarto document for my [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), I labelled the code chunks appropriately with the `label` 
 chunk option. 
 
 - For [Lab 2](https://hpawig.github.io/posts/2025-05-02-advanced-visualizations/), 
@@ -236,7 +244,7 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification
-- For [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), 
+- For [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), 
 I commented throughout the code to explain the few custom functions, online sources I referenced that weren't official documentation,
 references to use of Gemini to help write code.
 - I don't just have one code chunk but have them separated by code functionality (i.e. 
@@ -296,7 +304,7 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-For my dashboard labs ([Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/) and [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/)), I was able to communicate
+For my dashboard labs ([Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/) and [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/)), I was able to communicate
 the information that were displayed in the box plot, the leaflets, and the chloropleth map. I 
 wrote brief backgrounds on what information was used to create the plots. For example on the 2020 page, 
 I wrote a background on how the 2020 survey was focused more on mental health and so there were summary tables
@@ -324,7 +332,7 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-- In [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/), I have an instruction card on
+- In [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/), I have an instruction card on
 the 2020 page in the dashboard to tell the user how the sliders work. 
 
 - The dropdown menu in the tabset with the chloropleth graph on the vaccines page has a prompt that asks
@@ -385,7 +393,7 @@ portfolio_levels <- portfolio_levels %>%
 ### Justification:
 
 As previously mentioned, I read in all data and preprocessed them in the R script called
-data-preproc.R within my [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/)
+data-preproc.R within my [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/)
 repository/project directory. For example, I used the `str_split()` function multiple times to end up with
 a tibble 
 containing a column of column names and a column with their country code. I started
@@ -416,7 +424,7 @@ portfolio_levels <- portfolio_levels %>%
 
 With help from Gemini to understand how to use the `countrycode` package, I used data joining
 to create the necessary dataframe format to plot the chloropleth map in my [Lab 3](https://hpawig.github.io/posts/2025-05-03-static-dashboard/) 
-and [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/). For the
+and [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/). For the
 data wrangling that was used to preprocess my data for the plots in the lab, I utilized pivoting 
 when making the summary statistics for the 2020 responses relating to social media and anxiety.
 
@@ -490,7 +498,7 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-For the interactive `{plotly}` plot in [Lab 4](https://hpawig.github.io/posts/2025-05-03-interactive-dashboard/)
+For the interactive `{plotly}` plot in [Lab 4](https://hpawig.github.io/posts/2025-05-03-shiny-dashboard/)
 that was inspired one of the charts in the WGM 2018 report,
 I did not put a legend and instead utilized axes labels and the plot title to communicate the
 contents in the graph. I chose a red-orange color scale that matched the theme of the interactive 
