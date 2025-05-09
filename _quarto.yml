@@ -13,8 +13,7 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: morph
+    linkcolor: "#9d20b7"
     css: styles.css
     toc: true

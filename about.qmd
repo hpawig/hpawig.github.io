@@ -1,9 +1,17 @@
 ---
-title: "About"
+title: "About Me"
+date: "2025-05-07"
 ---
 
-About this site
+# Who am I, Hannah Pawig?
 
-```{r}
-1 + 1
-```
+## Right now
+I am a fourth year student at California Polytechnic State University in San Luis Obispo, California. I am majoring Statistics with a minor in Ethnic Studies.
+
+## Background
+I am from Clovis, California. I have always had an appreciation for math growing up, and it being
+my best subject also played a part in my decision to pursue a degree in Statistics. My overarching goal with my academics is to contribute to a data-informed world. I want to be able to use my knowledge of statistics to help people and organizations make informed decisions based on data. I am particularly interested in the intersection of statistics and health.
+
+
+# My Interests
+
