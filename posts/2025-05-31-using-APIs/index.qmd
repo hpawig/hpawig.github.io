@@ -1,0 +1,41 @@
+---
+title: "Using APIs"
+author: "Hannah Pawig"
+description: "Accessing API data to create a visualization"
+date: 05-31-2025
+categories: [STAT541, Quarto, R, GitHub/Git, APIs] # self-defined categories
+draft: false # setting this to 'false' will allow the post to be seen
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+In Week 7 of STAT 541, we learned about JSON data and using APIs [^1] to predict pass times for the International Space Station (ISS).
+This is the first of two collaborative labs during our course. Our team plotted the next 3 predicted pass times
+over all US capitals.[^2] I worked with my fellow classmate, Allen Choi. 
+We utilized a shared GitHub repository to track changes and make pull requests. We used a moon icon
+at each US capital to represent the ISS pass times on a leaflet map.[^3]
+
+Embedded below is the document that Allen and I coded together!
+
+
+```{=html}
+<center>
+
+<iframe src="lab-7.html"
+frameborder="1" width="960" height="569" allowfullscreen="true"
+mozallowfullscreen="true" webkitallowfullscreen="true"
+title="STAT541 Lab 7: Using APIs">
+</iframe>
+
+</center>
+```
+
+
+
+- Our shared GitHub repository for this STAT541 lab is [here](https://github.com/TheAllenChoi/lab-7).
+
+[^1]: Public satellite API (We used the JSON data) from the open-source website: <https://g7vrd.co.uk/public-satellite-pass-rest-api>
+[^2]: The longitudes and latitudes of US Capitals are from the [FSU State Capitals Dataset](https://people.sc.fsu.edu/~jburkardt/datasets/states/state_capitals_ll.txt) and [FSU State Names Dataset](https://people.sc.fsu.edu/~jburkardt/datasets/states/state_capitals_name.txt).
+[^3]: The icon used in the leaflet map is from [Flaticon](https://www.flaticon.com/free-icons/moon).

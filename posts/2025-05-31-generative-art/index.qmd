@@ -1,0 +1,39 @@
+---
+title: "Generative Art"
+author: "Hannah Pawig"
+description: "Creating generative art using shading tricks"
+date: 05-31-2025
+categories: [STAT541, Quarto, R, GitHub/Git] # self-defined categories
+draft: false # setting this to 'false' will allow the post to be seen
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+In Week 9 of STAT 541, we were shown examples of generative art graphs created in R from previous students who took this class. We were provided workshop materials to learn different generative art techniques and styles, as well as how to generate random palettes.
+
+In this blog post, I attempted to use shading tricks to showcase my generative art "exhibits," mainly using resources provided by the [Art From Code workshop materials](https://art-from-code.netlify.app/day-1/session-4/).
+- The `{rayshader}` package was one of the main packages used to create the functions and generative art with **shading tricks**.
+- There are many customized plotting functions that were created in order to produce the plots in the HTML.
+- Be on the lookout for the two main art exhibits!
+
+
+
+```{=html}
+<center>
+
+<iframe src="generative-art.html"
+frameborder="1" width="1000" height="600" allowfullscreen="true"
+mozallowfullscreen="true" webkitallowfullscreen="true"
+title="STAT541 Lab 8: Webscraping">
+</iframe>
+
+</center>
+```
+
+
+
+
+- My personal GitHub repository for this STAT541 lab is [here](https://github.com/hpawig/stat-541-lab-9).
+

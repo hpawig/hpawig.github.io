@@ -1,0 +1,36 @@
+---
+title: "Webscraping!"
+author: "Hannah Pawig"
+description: "A collaborative lab assignment to extract data from Cheese.com"
+date: 05-09-2025
+categories: [STAT541, Quarto, R, GitHub/Git, Webscraping] # self-defined categories
+draft: false # setting this to 'false' will allow the post to be seen
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+In Week 8 of STAT 541, we learned about webscraping specific data from websites, primarily by identifying CSS selectors of desired aspects we'd like to scrape.
+This is the second and final collaborative lab during our course. After checking <https://www.cheese.com/robots.txt>, we web-scraped
+various cheese data from <https://www.cheese.com>, including cheese names, types, and descriptions.
+
+Embedded below is the document that Allen and I coded together!
+
+
+```{=html}
+<center>
+
+<iframe src="lab-8.html"
+frameborder="1" width="1000" height="600" allowfullscreen="true"
+mozallowfullscreen="true" webkitallowfullscreen="true"
+title="STAT541 Lab 8: Webscraping">
+</iframe>
+
+</center>
+```
+
+
+- Our shared GitHub repository for this STAT541 lab is [here](https://github.com/hpawig/stat-541-lab-8).
+
+
