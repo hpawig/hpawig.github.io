@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Hannah Pawig">
+<meta name="dcterms.date" content="2025-05-31">
+<meta name="description" content="Accessing API data to create a visualization">
 
-<title>Blogs – hpawig.github.io</title>
+<title>Using APIs – hpawig.github.io</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-52d8413b9dbaa3e02110768c86e41b8d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-52d8413b9dbaa3e02110768c86e41b8d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +70,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">hpawig.github.io</span>
     </a>
   </div>
@@ -150,15 +93,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blogs.html" aria-current="page"> 
+    <a class="nav-link" href="../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
 </ul>
@@ -169,282 +112,82 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Using APIs</h1>
+                  <div>
+        <div class="description">
+          Accessing API data to create a visualization
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">STAT541</div>
+                <div class="quarto-category">Quarto</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">GitHub/Git</div>
+                <div class="quarto-category">APIs</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Hannah Pawig </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 31, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QVBJcw==">APIs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0SHViJTJGR2l0">GitHub/Git <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UXVhcnRvJTIwUHVi">Quarto Pub <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(7)</span></div><div class="category" data-category="U2hpbnk=">Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1RBVDU0MQ==">STAT541 <span class="quarto-category-count">(7)</span></div><div class="category" data-category="V2Vic2NyYXBpbmc=">Webscraping <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blogs</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>In Week 7 of STAT 541, we learned about JSON data and using APIs <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to predict pass times for the International Space Station (ISS). This is the first of two collaborative labs during our course. Our team plotted the next 3 predicted pass times over all US capitals.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> I worked with my fellow classmate, Allen Choi. We utilized a shared GitHub repository to track changes and make pull requests. We used a moon icon at each US capital to represent the ISS pass times on a leaflet map.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>Embedded below is the document that Allen and I coded together!</p>
+<center>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQlMkNBUElz" data-listing-date-sort="1748674800000" data-listing-file-modified-sort="1748728093987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
-<a href="./posts/2025-05-31-using-APIs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Using APIs
-</h5>
-<div class="listing-categories">
+<iframe src="lab-7.html" frameborder="1" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title="STAT541 Lab 7: Using APIs">
+</iframe>
 
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
+</center>
+<ul>
+<li>Our shared GitHub repository for this STAT541 lab is <a href="https://github.com/TheAllenChoi/lab-7">here</a>.</li>
+</ul>
 
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('QVBJcw=='); return false;">APIs</div>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-</div>
-<div class="card-text listing-description delink">
-<p>Accessing API data to create a visualization</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 31, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQ=" data-listing-date-sort="1748674800000" data-listing-file-modified-sort="1748728099137" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<a href="./posts/2025-05-31-generative-art/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Generative Art
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Creating generative art using shading tricks</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 31, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQlMkNXZWJzY3JhcGluZw==" data-listing-date-sort="1746774000000" data-listing-file-modified-sort="1748728105926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<a href="./posts/2025-05-31-web-scraping/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Webscraping!
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2Vic2NyYXBpbmc='); return false;">Webscraping</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>A collaborative lab assignment to extract data from Cheese.com</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 9, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQ=" data-listing-date-sort="1746774000000" data-listing-file-modified-sort="1748737292113" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2198">
-<a href="./posts/2025-05-12-advanced-functions/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Advanced Function Writing
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Writing Functions with <code>{rlang}</code></p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 9, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQlMkNRdWFydG8lMjBQdWI=" data-listing-date-sort="1746255600000" data-listing-file-modified-sort="1746311957035" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
-<a href="./posts/2025-05-03-static-dashboard/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Static Dashboard
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRvJTIwUHVi'); return false;">Quarto Pub</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Creating and publishing a static dashboard on Quarto Pub</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 3, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQlMkNTaGlueQ==" data-listing-date-sort="1746255600000" data-listing-file-modified-sort="1746311944866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
-<a href="./posts/2025-05-03-shiny-dashboard/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Interactive Dashboard
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Creating and publishing an interactive Shiny dashboard!</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 3, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="U1RBVDU0MSUyQ1F1YXJ0byUyQ1IlMkNHaXRIdWIlMkZHaXQ=" data-listing-date-sort="1746169200000" data-listing-file-modified-sort="1746321601979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3495">
-<a href="./posts/2025-05-02-advanced-viz/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/2025-05-02-advanced-viz/image/bad-wellcome-graph.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Advanced Visualizations
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1RBVDU0MQ=='); return false;">STAT541</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHViJTJGR2l0'); return false;">GitHub/Git</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>A start into advanced visualization in R!</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hannah Pawig
-</div>
-<div class="listing-date">
-May 2, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<ol>
+<li id="fn1"><p>Public satellite API (We used the JSON data) from the open-source website: <a href="https://g7vrd.co.uk/public-satellite-pass-rest-api" class="uri">https://g7vrd.co.uk/public-satellite-pass-rest-api</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The longitudes and latitudes of US Capitals are from the <a href="https://people.sc.fsu.edu/~jburkardt/datasets/states/state_capitals_ll.txt">FSU State Capitals Dataset</a> and <a href="https://people.sc.fsu.edu/~jburkardt/datasets/states/state_capitals_name.txt">FSU State Names Dataset</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The icon used in the leaflet map is from <a href="https://www.flaticon.com/free-icons/moon">Flaticon</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

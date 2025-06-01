@@ -1,199 +1,24 @@
 [
   {
-    "objectID": "reflection-template.html",
-    "href": "reflection-template.html",
-    "title": "Independent Learning (IL):",
-    "section": "",
-    "text": "Download the source code for the template here:\nreflection-template.qmd"
-  },
-  {
-    "objectID": "reflection-template.html#il-1-adding-new-skills",
-    "href": "reflection-template.html#il-1-adding-new-skills",
-    "title": "Independent Learning (IL):",
-    "section": "[IL-1] Adding new skills:",
-    "text": "[IL-1] Adding new skills:\n\nI can find and adopt new packages to accomplish tasks.\nI can adapt to different syntax styles (tidy, base, formula style, data.table).\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#il-2-online-resources",
-    "href": "reflection-template.html#il-2-online-resources",
-    "title": "Independent Learning (IL):",
-    "section": "[IL-2] Online resources:",
-    "text": "[IL-2] Online resources:\n\nI can use online resources (e.g., Google, ChatGPT, StackOverflow, YouTube) to solve problems, debug, or find new tools.\nI can use tutorials, etc. to enhance my understanding of new concepts.\nI can find source code for similar projects to use as starting points for my own.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#il-summary",
-    "href": "reflection-template.html#il-summary",
-    "title": "Independent Learning (IL):",
-    "section": "IL Summary",
-    "text": "IL Summary"
-  },
-  {
-    "objectID": "reflection-template.html#rw-1-file-code-and-data-management",
-    "href": "reflection-template.html#rw-1-file-code-and-data-management",
-    "title": "Independent Learning (IL):",
-    "section": "[RW-1] File, code, and data management:",
-    "text": "[RW-1] File, code, and data management:\n\nI can use Git and GitHub to track my progress (creating repos, cloning, forking, pull requesting).\nI always use R Projects and the {here} package to organize my scripts, notebooks, data, and applications.\nI always use pull requests when collaborating with others.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#rw-2-notebooks",
-    "href": "reflection-template.html#rw-2-notebooks",
-    "title": "Independent Learning (IL):",
-    "section": "[RW-2] Notebooks:",
-    "text": "[RW-2] Notebooks:\n\nI can use Quarto to produce a reproducible notebook and polished rendered documents\nI can use appropriate chunk options (echo, error, cache, etc.) to render my Quarto document quickly and cleanly.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#rw-3-code-style",
-    "href": "reflection-template.html#rw-3-code-style",
-    "title": "Independent Learning (IL):",
-    "section": "[RW-3] Code style",
-    "text": "[RW-3] Code style\n\nMy code is clear, readable, well-organized, and well-commented.\n\n\nLevel: 1\n\n\nJustification"
-  },
-  {
-    "objectID": "reflection-template.html#rw-summary",
-    "href": "reflection-template.html#rw-summary",
-    "title": "Independent Learning (IL):",
-    "section": "RW Summary",
-    "text": "RW Summary"
-  },
-  {
-    "objectID": "reflection-template.html#tc-1-project-summaries",
-    "href": "reflection-template.html#tc-1-project-summaries",
-    "title": "Independent Learning (IL):",
-    "section": "[TC-1] Project summaries:",
-    "text": "[TC-1] Project summaries:\n\nI can create clear and succinct summaries of a project.\nI accurately interpret statistical or modeling results.\nI consider the appropriate scope and impact of my project results.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#tc-2-documentation",
-    "href": "reflection-template.html#tc-2-documentation",
-    "title": "Independent Learning (IL):",
-    "section": "[TC-2] Documentation:",
-    "text": "[TC-2] Documentation:\n\nI can create a user-friendly dashboard.\nI provide ample documentation for my custom functions.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#tc-summary",
-    "href": "reflection-template.html#tc-summary",
-    "title": "Independent Learning (IL):",
-    "section": "TC Summary",
-    "text": "TC Summary"
-  },
-  {
-    "objectID": "reflection-template.html#dm-1-data-preparation",
-    "href": "reflection-template.html#dm-1-data-preparation",
-    "title": "Independent Learning (IL):",
-    "section": "[DM-1] Data Preparation",
-    "text": "[DM-1] Data Preparation\n\nI can read in datasets to R, including untidy ones.\nI can clean datasets to deal with missing data, typos, poor formatting, etc.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#dm-2-data-wrangling",
-    "href": "reflection-template.html#dm-2-data-wrangling",
-    "title": "Independent Learning (IL):",
-    "section": "[DM-2] Data Wrangling",
-    "text": "[DM-2] Data Wrangling\n\nI can cleverly use pivoting, separating, grouping, and joining to wrangle data.\nI can use mapping (purrr) to perform repeated tasks.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#dm-3-data-formats",
-    "href": "reflection-template.html#dm-3-data-formats",
-    "title": "Independent Learning (IL):",
-    "section": "[DM-3] Data Formats",
-    "text": "[DM-3] Data Formats\n\nI can use API urls to access JSON data and convert it into a data frame\nI can scrape data from the web and convert it into a data frame\n\n\n## Fill in the line below with your self-assigned level for this objective.\nmy_level &lt;- 1\n\nportfolio_levels &lt;- portfolio_levels %&gt;%\n  bind_rows(tibble(Objective = \"DM-3\", \n                   Level = my_level))\n\n\nLevel: 1\n\n\nJustification"
-  },
-  {
-    "objectID": "reflection-template.html#dm-summary",
-    "href": "reflection-template.html#dm-summary",
-    "title": "Independent Learning (IL):",
-    "section": "DM Summary",
-    "text": "DM Summary"
-  },
-  {
-    "objectID": "reflection-template.html#pv-1-clear-accessible-visualizations",
-    "href": "reflection-template.html#pv-1-clear-accessible-visualizations",
-    "title": "Independent Learning (IL):",
-    "section": "[PV-1] Clear & Accessible Visualizations",
-    "text": "[PV-1] Clear & Accessible Visualizations\n\nI can make my plots more clear by removing the legend and adding annotations.\nI can edit the titles, subtitles, captions, axis labels, etc. to create a clearly labelled plot.\nI can choose colors (“scales”) and themes to make a visually pleasing and accessible plot.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#pv-2-dynamic-visualizations",
-    "href": "reflection-template.html#pv-2-dynamic-visualizations",
-    "title": "Independent Learning (IL):",
-    "section": "[PV-2] Dynamic Visualizations",
-    "text": "[PV-2] Dynamic Visualizations\n\nI can use a package like {gganimate} to create self-contained gifs.\nI can use a package like {plotly}, {ggplotly}, {leaflet}, {ggirafe}, etc. to make interactive html widgets.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#pv-3-interactive-visualizations",
-    "href": "reflection-template.html#pv-3-interactive-visualizations",
-    "title": "Independent Learning (IL):",
-    "section": "[PV-3] Interactive Visualizations",
-    "text": "[PV-3] Interactive Visualizations\n\nI can use Shiny or webR to create visualizations that react to a user’s input.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#pv-summary",
-    "href": "reflection-template.html#pv-summary",
-    "title": "Independent Learning (IL):",
-    "section": "PV Summary",
-    "text": "PV Summary"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-1-r-programming-language",
-    "href": "reflection-template.html#cdai-1-r-programming-language",
-    "title": "Independent Learning (IL):",
-    "section": "[CDAI-1] R Programming Language",
-    "text": "[CDAI-1] R Programming Language\n\nI understand non-standard evaluation (aka “tidy eval” or “unquoted objects”), and I can use tunneling in my functions.\nI understand functional programming, and I can use functions as objects in my code design.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-2-object-handling",
-    "href": "reflection-template.html#cdai-2-object-handling",
-    "title": "Independent Learning (IL):",
-    "section": "[CDAI-2] Object Handling",
-    "text": "[CDAI-2] Object Handling\n\nI have built in checks for possible input problems\nI can make reasonable choices in my code design about when to save intermediate objects.\nI can convert objects between types and structures as needed.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-3-speed-and-efficiency",
-    "href": "reflection-template.html#cdai-3-speed-and-efficiency",
-    "title": "Independent Learning (IL):",
-    "section": "[CDAI-3] Speed and Efficiency",
-    "text": "[CDAI-3] Speed and Efficiency\n\nI can recognize moments of possible slowdown in my code, and use built-in functions or parallelizing to speed them up.\nI always use and design vectorized functions whenever possible.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-4-supporting-functions",
-    "href": "reflection-template.html#cdai-4-supporting-functions",
-    "title": "Independent Learning (IL):",
-    "section": "[CDAI-4] Supporting Functions",
-    "text": "[CDAI-4] Supporting Functions\n\nI write helper / shortcut functions to streamline repeated tasks and make my code easier to read.\nI use intermediate functions to streamline repeated or looping processes.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-5-algorithmic-process",
-    "href": "reflection-template.html#cdai-5-algorithmic-process",
-    "title": "Independent Learning (IL):",
-    "section": "[CDAI-5] Algorithmic Process",
-    "text": "[CDAI-5] Algorithmic Process\n\nI can invent and implement my own iterative algorithm.\nMy loops are clean and efficient.\nI have built in checks for possible problems or extreme cases in the algorithm.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-6-generative-art",
-    "href": "reflection-template.html#cdai-6-generative-art",
-    "title": "Independent Learning (IL):",
-    "section": "[CDAI-6] Generative Art",
-    "text": "[CDAI-6] Generative Art\n\nI can apply a variety of generative art functions to make a visually pleasing piece.\nI can explain why particular changes to the code result in particular differences in the visualization.\n\n\nLevel: 1\n\n\nJustification:"
-  },
-  {
-    "objectID": "reflection-template.html#cdai-summary",
-    "href": "reflection-template.html#cdai-summary",
-    "title": "Independent Learning (IL):",
-    "section": "CDAI Summary",
-    "text": "CDAI Summary"
-  },
-  {
-    "objectID": "reflection-template.html#grade",
-    "href": "reflection-template.html#grade",
-    "title": "Independent Learning (IL):",
-    "section": "Grade",
-    "text": "Grade\nBased on the summary plot above, I believe I have earned a ____ in STAT 541.\n\nJustification"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "I am a fourth year student at California Polytechnic State University in San Luis Obispo, California. I am majoring Statistics with a minor in Ethnic Studies.\n\n\n\nI am from Clovis, California. I have always had an appreciation for math growing up, and it being my best subject also played a part in my decision to pursue a degree in Statistics. My overarching goal with my academics is to contribute to a data-informed world. I want to be able to use my knowledge of statistics to help people and organizations make informed decisions based on data. I am particularly interested in the intersection of statistics and health."
+  },
+  {
+    "objectID": "about.html#right-now",
+    "href": "about.html#right-now",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a fourth year student at California Polytechnic State University in San Luis Obispo, California. I am majoring Statistics with a minor in Ethnic Studies."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "I am from Clovis, California. I have always had an appreciation for math growing up, and it being my best subject also played a part in my decision to pursue a degree in Statistics. My overarching goal with my academics is to contribute to a data-informed world. I want to be able to use my knowledge of statistics to help people and organizations make informed decisions based on data. I am particularly interested in the intersection of statistics and health."
   },
   {
     "objectID": "posts/2025-05-02-advanced-viz/index.html",
@@ -201,6 +26,76 @@
     "title": "Advanced Visualizations",
     "section": "",
     "text": "In Week 2 of the STAT 541 course, our class reviewed what a bad visualization looked like. The exact example we looked over was one of the plots from the Wellcome Global Monitor (WGM) using data from the Gallup world Poll 2018."
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html",
+    "href": "posts/2025-05-12-advanced-functions/index.html",
+    "title": "Advanced Function Writing",
+    "section": "",
+    "text": "In Week 6 of STAT 541, we learned about writing functions in R. We were introduced to the {rlang}1 package (along with {tidyverse}, of course), which is a package that provides tools for implementing the “tidy eval” framework in R.\nIn this blog post, I work through the given function prompts below to showcase advanced function writing skills, mainly using the rlang package.\nThis assignment had an option to complete only one of the advanced functions and then the “Alternative Lab 6”. I chose to complete all of the advanced functions, to challenge myself and improve my function writing skills. Below is the assignment with the question prompts from the lab, and my solutions to each of the functions in the code chunks."
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html#testing-your-function",
+    "href": "posts/2025-05-12-advanced-functions/index.html#testing-your-function",
+    "title": "Advanced Function Writing",
+    "section": "Testing Your Function!",
+    "text": "Testing Your Function!\n\n## Testing how your function handles multiple input variables\nremove_outliers(diamonds, \n                price, \n                x, \n                y, \n                z)\n\n# A tibble: 52,689 × 10\n   carat cut       color clarity depth table price     x     y     z\n   &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1  0.23 Ideal     E     SI2      61.5    55   326  3.95  3.98  2.43\n 2  0.21 Premium   E     SI1      59.8    61   326  3.89  3.84  2.31\n 3  0.23 Good      E     VS1      56.9    65   327  4.05  4.07  2.31\n 4  0.29 Premium   I     VS2      62.4    58   334  4.2   4.23  2.63\n 5  0.31 Good      J     SI2      63.3    58   335  4.34  4.35  2.75\n 6  0.24 Very Good J     VVS2     62.8    57   336  3.94  3.96  2.48\n 7  0.24 Very Good I     VVS1     62.3    57   336  3.95  3.98  2.47\n 8  0.26 Very Good H     SI1      61.9    55   337  4.07  4.11  2.53\n 9  0.22 Fair      E     VS2      65.1    61   337  3.87  3.78  2.49\n10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39\n# ℹ 52,679 more rows\n\n## Testing how your function handles an input that isn't numeric\nremove_outliers(diamonds, \n                price, \n                color)\n\nError in remove_outliers(diamonds, price, color): \nAll columns must be a numeric variable.\nThe following columns are not numeric: color\n\n## Testing how your function handles a non-default sd_thresh\nremove_outliers(diamonds, \n                price,\n                x, \n                y, \n                z, \n                sd_thresh = 2)\n\n# A tibble: 50,099 × 10\n   carat cut       color clarity depth table price     x     y     z\n   &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1  0.23 Ideal     E     SI2      61.5    55   326  3.95  3.98  2.43\n 2  0.21 Premium   E     SI1      59.8    61   326  3.89  3.84  2.31\n 3  0.23 Good      E     VS1      56.9    65   327  4.05  4.07  2.31\n 4  0.29 Premium   I     VS2      62.4    58   334  4.2   4.23  2.63\n 5  0.31 Good      J     SI2      63.3    58   335  4.34  4.35  2.75\n 6  0.24 Very Good J     VVS2     62.8    57   336  3.94  3.96  2.48\n 7  0.24 Very Good I     VVS1     62.3    57   336  3.95  3.98  2.47\n 8  0.26 Very Good H     SI1      61.9    55   337  4.07  4.11  2.53\n 9  0.22 Fair      E     VS2      65.1    61   337  3.87  3.78  2.49\n10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39\n# ℹ 50,089 more rows\n\n\nExercise 2: Write a function that imputes missing values for numeric variables in a dataset. The user should be able to supply the dataset, the variables to impute values for, and a function to use when imputing. Hint 1: You will need to use across() to apply your function, since the user can input multiple variables. Hint 2: The replace_na() function is helpful here!\n\n# Function that imputes missing values in a dataset\n# By default, the imputation function will be the mean\n# The function should take a data frame, the variables to impute from without quotes, and the impute_fun\nimpute_missing &lt;- function(df, y, ..., impute_fun = mean) {\n  # Put variables in one enquosure\n  vars &lt;- enquos(...)\n\n\n# Check if y and other variables are numeric\n  non_numeric &lt;- df |&gt; \n    # keep specified columns\n    dplyr::select({{ y }}, !!!vars) |&gt; \n    map_lgl(~ !(is.numeric(.x))) |&gt; \n    keep(identity) |&gt;\n    names() # these are the names of the columns which are not numeric\n  \n  # Check for non-numeric columns\n\n  if (length(non_numeric) &gt; 0) {\n    stop(\"\\nAll columns must be a numeric variable.\\nThe following columns are not numeric: \",\n         str_c(non_numeric, collapse = \", \"))\n  }  \n  \n  df |&gt; \n    # Calculate desired stat (mean by default) within columns and replace na's with stat\n    dplyr::mutate(across(.cols = c({{ y }}, !!!vars),\n                         ~ replace_na(.x, impute_fun(.x)))) \n}"
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html#testing-your-function-1",
+    "href": "posts/2025-05-12-advanced-functions/index.html#testing-your-function-1",
+    "title": "Advanced Function Writing",
+    "section": "Testing Your Function!",
+    "text": "Testing Your Function!\n\n## Testing how your function handles multiple input variables\nimpute_missing(nycflights13::flights, \n               arr_delay, \n               dep_delay)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n## Testing how your function handles an input that isn't numeric\nimpute_missing(nycflights13::flights, \n               arr_delay, \n               carrier) \n\nError in impute_missing(nycflights13::flights, arr_delay, carrier): \nAll columns must be a numeric variable.\nThe following columns are not numeric: carrier\n\n## Testing how your function handles a non-default impute_fun\nimpute_missing(nycflights13::flights, \n               arr_delay, \n               dep_delay, \n               impute_fun = median)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html#testing-your-function-2",
+    "href": "posts/2025-05-12-advanced-functions/index.html#testing-your-function-2",
+    "title": "Advanced Function Writing",
+    "section": "Testing Your Function!",
+    "text": "Testing Your Function!\n\nfit_model(\n  diamonds,\n  mod_formula = price ~ carat + cut,\n  remove_outliers = TRUE,\n  impute_missing = TRUE,\n  print_inputs = TRUE,\n  price, \n  carat\n)\n\n[1] \"Inputs:\"\n$df\n# A tibble: 52,527 × 10\n   carat cut       color clarity depth table price     x     y     z\n   &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1  0.23 Ideal     E     SI2      61.5    55   326  3.95  3.98  2.43\n 2  0.21 Premium   E     SI1      59.8    61   326  3.89  3.84  2.31\n 3  0.23 Good      E     VS1      56.9    65   327  4.05  4.07  2.31\n 4  0.29 Premium   I     VS2      62.4    58   334  4.2   4.23  2.63\n 5  0.31 Good      J     SI2      63.3    58   335  4.34  4.35  2.75\n 6  0.24 Very Good J     VVS2     62.8    57   336  3.94  3.96  2.48\n 7  0.24 Very Good I     VVS1     62.3    57   336  3.95  3.98  2.47\n 8  0.26 Very Good H     SI1      61.9    55   337  4.07  4.11  2.53\n 9  0.22 Fair      E     VS2      65.1    61   337  3.87  3.78  2.49\n10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39\n# ℹ 52,517 more rows\n\n$mod_formula\nprice ~ carat + cut\n\n$remove_outliers\n[1] TRUE\n\n$impute_missing\n[1] TRUE\n\n\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n   -2460.16      7526.96      1059.65      -410.54       295.80        82.62  \n\n## Test my fit_model() with an invalid mod_formula\n\nfit_model(\n  diamonds,\n  mod_formula =  ~ carat + cut,\n  remove_outliers = TRUE,\n  impute_missing = TRUE,\n  price, \n  carat\n)\n\nError in fit_model(diamonds, mod_formula = ~carat + cut, remove_outliers = TRUE, : `mod_formula` must be a valid formula. Check LHS and RHS!"
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html#parameters",
+    "href": "posts/2025-05-12-advanced-functions/index.html#parameters",
+    "title": "Advanced Function Writing",
+    "section": "Parameters",
+    "text": "Parameters\nFirst, we need to define the set of parameters we want to iterate the fit_model() function over. The tidyr package has a useful function called crossing() that is useful for generating argument combinations. For each argument, we specify all possible values for that argument and crossing() generates all combinations. Note that you can create a list of formula objects in R with c(y ~ x1, y ~ x1 + x2).\n\ndf_arg_combos &lt;- tidyr::crossing(\n    impute = c(TRUE, FALSE),\n    remove_outliers = c(TRUE, FALSE), \n    mod = c(y ~ x1, \n            y ~ x1 + x2)\n)\ndf_arg_combos \n\nExercise 4: Use crossing() to create the data frame of argument combinations for our analyses.\n\n# function to create the data frame of argument combinations\n df_arg_combos &lt;- tidyr::crossing(\n    impute = c(TRUE, FALSE),\n    remove_outliers = c(TRUE, FALSE), \n    mod_formula = c(price ~ carat, \n            price ~ carat + cut,\n            price ~ carat + cut + clarity,\n            price ~ carat + cut + clarity + color)\n  )\n\ndf_arg_combos |&gt; \n  # create a mod_formula string to display\n  dplyr::mutate(mod_formula = as.character(mod_formula))\n\n# A tibble: 16 × 3\n   impute remove_outliers mod_formula                          \n   &lt;lgl&gt;  &lt;lgl&gt;           &lt;chr&gt;                                \n 1 FALSE  FALSE           price ~ carat                        \n 2 FALSE  FALSE           price ~ carat + cut                  \n 3 FALSE  FALSE           price ~ carat + cut + clarity        \n 4 FALSE  FALSE           price ~ carat + cut + clarity + color\n 5 FALSE  TRUE            price ~ carat                        \n 6 FALSE  TRUE            price ~ carat + cut                  \n 7 FALSE  TRUE            price ~ carat + cut + clarity        \n 8 FALSE  TRUE            price ~ carat + cut + clarity + color\n 9 TRUE   FALSE           price ~ carat                        \n10 TRUE   FALSE           price ~ carat + cut                  \n11 TRUE   FALSE           price ~ carat + cut + clarity        \n12 TRUE   FALSE           price ~ carat + cut + clarity + color\n13 TRUE   TRUE            price ~ carat                        \n14 TRUE   TRUE            price ~ carat + cut                  \n15 TRUE   TRUE            price ~ carat + cut + clarity        \n16 TRUE   TRUE            price ~ carat + cut + clarity + color"
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html#iterating-over-the-parameters",
+    "href": "posts/2025-05-12-advanced-functions/index.html#iterating-over-the-parameters",
+    "title": "Advanced Function Writing",
+    "section": "Iterating Over the Parameters",
+    "text": "Iterating Over the Parameters\nWe’ve arrived at the final step!\nExercise 5: Use pmap() from purrr to apply the fit_model() function to every combination of arguments from `diamonds.\n\n# Use pmap to apply the fit_model function to each row of df_arg_combos\npurrr::pmap(\n  .l = list(df = c(rep(x = list(diamonds),\n                       times = nrow(df_arg_combos))), # need a copy of df for each row\n            mod_formula = df_arg_combos$mod_formula, \n            remove_outliers = df_arg_combos$remove_outliers, \n            impute_missing = df_arg_combos$impute),\n  .f = fit_model\n)\n\n[[1]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat  \n      -2256         7756  \n\n\n[[2]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n   -2701.38      7871.08      1239.80      -528.60       367.91        74.59  \n\n\n[[3]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3187.540     8472.026      713.804     -334.503      188.482        1.663  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4011.681    -1821.922      917.658     -430.047      257.141       26.909  \n  clarity^7  \n    186.742  \n\n\n[[4]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3710.603     8886.129      698.907     -327.686      180.565       -1.207  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4217.535    -1832.406      923.273     -361.995      216.616        2.105  \n  clarity^7      color.L      color.Q      color.C      color^4      color^5  \n    110.340    -1910.288     -627.954     -171.960       21.678      -85.943  \n    color^6  \n    -49.986  \n\n\n[[5]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat  \n      -2256         7756  \n\n\n[[6]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n   -2701.38      7871.08      1239.80      -528.60       367.91        74.59  \n\n\n[[7]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3187.540     8472.026      713.804     -334.503      188.482        1.663  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4011.681    -1821.922      917.658     -430.047      257.141       26.909  \n  clarity^7  \n    186.742  \n\n\n[[8]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3710.603     8886.129      698.907     -327.686      180.565       -1.207  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4217.535    -1832.406      923.273     -361.995      216.616        2.105  \n  clarity^7      color.L      color.Q      color.C      color^4      color^5  \n    110.340    -1910.288     -627.954     -171.960       21.678      -85.943  \n    color^6  \n    -49.986  \n\n\n[[9]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat  \n      -2256         7756  \n\n\n[[10]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n   -2701.38      7871.08      1239.80      -528.60       367.91        74.59  \n\n\n[[11]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3187.540     8472.026      713.804     -334.503      188.482        1.663  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4011.681    -1821.922      917.658     -430.047      257.141       26.909  \n  clarity^7  \n    186.742  \n\n\n[[12]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3710.603     8886.129      698.907     -327.686      180.565       -1.207  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4217.535    -1832.406      923.273     -361.995      216.616        2.105  \n  clarity^7      color.L      color.Q      color.C      color^4      color^5  \n    110.340    -1910.288     -627.954     -171.960       21.678      -85.943  \n    color^6  \n    -49.986  \n\n\n[[13]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat  \n      -2256         7756  \n\n\n[[14]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n   -2701.38      7871.08      1239.80      -528.60       367.91        74.59  \n\n\n[[15]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3187.540     8472.026      713.804     -334.503      188.482        1.663  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4011.681    -1821.922      917.658     -430.047      257.141       26.909  \n  clarity^7  \n    186.742  \n\n\n[[16]]\n\nCall:\nlm(formula = (mod_formula), data = df)\n\nCoefficients:\n(Intercept)        carat        cut.L        cut.Q        cut.C        cut^4  \n  -3710.603     8886.129      698.907     -327.686      180.565       -1.207  \n  clarity.L    clarity.Q    clarity.C    clarity^4    clarity^5    clarity^6  \n   4217.535    -1832.406      923.273     -361.995      216.616        2.105  \n  clarity^7      color.L      color.Q      color.C      color^4      color^5  \n    110.340    -1910.288     -627.954     -171.960       21.678      -85.943  \n    color^6  \n    -49.986"
+  },
+  {
+    "objectID": "posts/2025-05-12-advanced-functions/index.html#footnotes",
+    "href": "posts/2025-05-12-advanced-functions/index.html#footnotes",
+    "title": "Advanced Function Writing",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nOfficial rlang documentation can be found here↩︎"
+  },
+  {
+    "objectID": "posts/2025-05-31-using-APIs/index.html",
+    "href": "posts/2025-05-31-using-APIs/index.html",
+    "title": "Using APIs",
+    "section": "",
+    "text": "In Week 7 of STAT 541, we learned about JSON data and using APIs 1 to predict pass times for the International Space Station (ISS). This is the first of two collaborative labs during our course. Our team plotted the next 3 predicted pass times over all US capitals.2 I worked with my fellow classmate, Allen Choi. We utilized a shared GitHub repository to track changes and make pull requests. We used a moon icon at each US capital to represent the ISS pass times on a leaflet map.3\nEmbedded below is the document that Allen and I coded together!"
+  },
+  {
+    "objectID": "posts/2025-05-31-using-APIs/index.html#footnotes",
+    "href": "posts/2025-05-31-using-APIs/index.html#footnotes",
+    "title": "Using APIs",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nPublic satellite API (We used the JSON data) from the open-source website: https://g7vrd.co.uk/public-satellite-pass-rest-api↩︎\nThe longitudes and latitudes of US Capitals are from the FSU State Capitals Dataset and FSU State Names Dataset.↩︎\nThe icon used in the leaflet map is from Flaticon.↩︎"
+  },
+  {
+    "objectID": "posts/2025-05-31-web-scraping/index.html",
+    "href": "posts/2025-05-31-web-scraping/index.html",
+    "title": "Webscraping!",
+    "section": "",
+    "text": "In Week 8 of STAT 541, we learned about webscraping specific data from websites, primarily by identifying CSS selectors of desired aspects we’d like to scrape. This is the second and final collaborative lab during our course. After checking https://www.cheese.com/robots.txt, we web-scraped various cheese data from https://www.cheese.com, including cheese names, types, and descriptions.\nEmbedded below is the document that Allen and I coded together!\n\n\n\n\n\n\n\nOur shared GitHub repository for this STAT541 lab is here."
   },
   {
     "objectID": "posts/2025-05-03-static-dashboard/index.html",
@@ -231,6 +126,13 @@
     "text": "Footnotes\n\n\nLink to the 2018 survey data: Wellcome Global Monitor 2018 Report↩︎\nLink to the 2020 survey report: Wellcome Global Monitor 2020 Report↩︎"
   },
   {
+    "objectID": "posts/2025-05-31-generative-art/index.html",
+    "href": "posts/2025-05-31-generative-art/index.html",
+    "title": "Generative Art",
+    "section": "",
+    "text": "In Week 9 of STAT 541, we were shown examples of generative art graphs created in R from previous students who took this class. We were provided workshop materials to learn different generative art techniques and styles, as well as how to generate random palettes.\nIn this blog post, I attempted to use shading tricks to showcase my generative art “exhibits,” mainly using resources provided by the Art From Code workshop materials. - The {rayshader} package was one of the main packages used to create the functions and generative art with shading tricks. - There are many customized plotting functions that were created in order to produce the plots in the HTML. - Be on the lookout for the two main art exhibits!\n\n\n\n\n\n\n\nMy personal GitHub repository for this STAT541 lab is here."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
@@ -240,8 +142,8 @@
   {
     "objectID": "blogs.html",
     "href": "blogs.html",
-    "title": "Blogposts",
+    "title": "Blogs",
     "section": "",
-    "text": "Static Dashboard\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\nQuarto Pub\n\n\n\nCreating and publishing a static dashboard on Quarto Pub\n\n\n\nHannah Pawig\n\n\nMay 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nInteractive Dashboard\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\nShiny\n\n\n\nCreating and publishing an interactive Shiny dashboard!\n\n\n\nHannah Pawig\n\n\nMay 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Visualizations\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\n\n\nA start into advanced visualization in R!\n\n\n\nHannah Pawig\n\n\nMay 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Using APIs\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\nAPIs\n\n\n\nAccessing API data to create a visualization\n\n\n\nHannah Pawig\n\n\nMay 31, 2025\n\n\n\n\n\n\n\n\n\n\n\nGenerative Art\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\n\n\nCreating generative art using shading tricks\n\n\n\nHannah Pawig\n\n\nMay 31, 2025\n\n\n\n\n\n\n\n\n\n\n\nWebscraping!\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\nWebscraping\n\n\n\nA collaborative lab assignment to extract data from Cheese.com\n\n\n\nHannah Pawig\n\n\nMay 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Function Writing\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\n\n\nWriting Functions with {rlang}\n\n\n\nHannah Pawig\n\n\nMay 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nStatic Dashboard\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\nQuarto Pub\n\n\n\nCreating and publishing a static dashboard on Quarto Pub\n\n\n\nHannah Pawig\n\n\nMay 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nInteractive Dashboard\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\nShiny\n\n\n\nCreating and publishing an interactive Shiny dashboard!\n\n\n\nHannah Pawig\n\n\nMay 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Visualizations\n\n\n\nSTAT541\n\nQuarto\n\nR\n\nGitHub/Git\n\n\n\nA start into advanced visualization in R!\n\n\n\nHannah Pawig\n\n\nMay 2, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
