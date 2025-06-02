@@ -2,7 +2,7 @@
 title: "Webscraping!"
 author: "Hannah Pawig"
 description: "A collaborative lab assignment to extract data from Cheese.com"
-date: 05-09-2025
+date: 05-31-2025
 categories: [STAT541, Quarto, R, GitHub/Git, Webscraping] # self-defined categories
 draft: false # setting this to 'false' will allow the post to be seen
 execute:
